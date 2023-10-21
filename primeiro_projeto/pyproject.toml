@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "primeiro-projeto"
+version = "0.1.0"
+description = "Nosso primeiro projeto python no bootcamp django"
+authors = ["famgz <famgz@proton.me>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

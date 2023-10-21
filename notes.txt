@@ -1,0 +1,3 @@
+projeto1/
+asgi.py  # servidor web
+settings.py

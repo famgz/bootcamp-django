@@ -1,0 +1,35 @@
+AULA 1
+
+# pip install poetry
+
+# run prompt in the project directory
+
+poetry init
+
+poetry add django
+
+poetry shell  # similar to venv activate
+
+poetry show # mostrar pacotes (similar pip list)
+
+django-admin startproject projeto1 .  # create django project
+
+python manage.py runserver  # http://127.0.0.1:8000/ || http://localhost:8000/
+
+python manage.py migrate
+
+python manage.py createsuperuser  # create admin user (cmd won't show the password) | access http://127.0.0.1:8000/admin
+
+AULA 2
+
+python manage.py startapp rh  # create app
+
+python manage.py makemigrations  # search for models in config.py and create models
+
+python manage.py migrate  # apply to DB
+
+# makemigrations/migrate must be run at every change in class Pessoa
+
+# https://docs.djangoproject.com/en/4.2/ref/contrib/admin/filters/
+
+# https://django-jazzmin.readthedocs.io/  # change django visuals
